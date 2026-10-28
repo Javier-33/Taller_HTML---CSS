@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requisitos funcionales | Plataforma de Referidos y Fidelización</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header id="encabezado">
+        <div class="encabezado-contenido">
+            <img class="logo" src="../img/logo.png" alt="Logo de la Cooperativa de Ahorro y Crédito Padre Julián Lorente">
+            <div class="marca">
+                <h1>Plataforma de Referidos y Fidelización</h1>
+                <p>Cooperativa de Ahorro y Crédito Padre Julián Lorente</p>
+            </div>
+        </div>
+    </header>
+
+    <nav id="menu" aria-label="Menú principal">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="usuarios.html">Usuarios</a></li>
+            <li><a href="requisitos-funcionales.html" class="activo" aria-current="page">Requisitos funcionales</a></li>
+            <li><a href="requisitos-no-funcionales.html">Requisitos no funcionales</a></li>
+            <li><a href="alcance.html">Alcance</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="banner">
+            <span class="etiqueta-seccion">Sección 3</span>
+            <h2>Requisitos funcionales</h2>
+            <p class="subtitulo">Funcionalidades que deberá proporcionar la aplicación web.</p>
+        </section>
+
+        <section class="tarjeta">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Requisito</th>
+                        <th>Descripción</th>
+                        <th>Usuario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td class="codigo">RF01</td><td><strong>Registro e inicio de sesión</strong></td><td>Permitir que el socio se registre con sus datos personales, correo y contraseña, e inicie y cierre sesión.</td><td>Socio</td></tr>
+                    <tr><td class="codigo">RF02</td><td><strong>Gestión de perfil</strong></td><td>Permitir que el socio consulte y edite su foto, datos de contacto y la privacidad de su perfil.</td><td>Socio</td></tr>
+                    <tr><td class="codigo">RF03</td><td><strong>Código de referido</strong></td><td>Generar para cada socio un código y un enlace de referido únicos para compartir.</td><td>Socio</td></tr>
+                    <tr><td class="codigo">RF04</td><td><strong>Registrar referido</strong></td><td>Permitir registrar un referido con su nombre, contacto y el producto recomendado, impidiendo registrar personas que ya sean socias o hayan sido referidas.</td><td>Socio, Referido</td></tr>
+                    <tr><td class="codigo">RF05</td><td><strong>Seguimiento de referidos</strong></td><td>Mostrar al socio sus referidos con su estado (Enviado, Registrado, Efectivo o Rechazado) y permitir al administrador actualizar ese estado.</td><td>Socio, Administrador</td></tr>
+                    <tr><td class="codigo">RF06</td><td><strong>Comunidad</strong></td><td>Permitir publicar contenido, comentar y reaccionar a las publicaciones de otros socios, y reportar contenido inapropiado.</td><td>Socio</td></tr>
+                    <tr><td class="codigo">RF07</td><td><strong>Capacitaciones y talleres</strong></td><td>Permitir consultar las capacitaciones, talleres y contenidos de salud y bienestar disponibles, e inscribirse en ellos.</td><td>Socio</td></tr>
+                    <tr><td class="codigo">RF08</td><td><strong>Juegos y retos</strong></td><td>Permitir jugar juegos de preguntas de educación financiera y completar retos vigentes.</td><td>Socio</td></tr>
+                    <tr><td class="codigo">RF09</td><td><strong>Puntos, niveles e insignias</strong></td><td>Asignar puntos automáticamente por referidos efectivos, retos y actividades completadas, y otorgar niveles e insignias según los puntos acumulados.</td><td>Sistema</td></tr>
+                    <tr><td class="codigo">RF10</td><td><strong>Recompensas</strong></td><td>Permitir al socio consultar su saldo de puntos y el catálogo de recompensas, y solicitar un canje si tiene puntos suficientes.</td><td>Socio</td></tr>
+                    <tr><td class="codigo">RF11</td><td><strong>Notificaciones</strong></td><td>Notificar al socio los cambios de estado de sus referidos, nuevos retos y actividades, y los puntos obtenidos.</td><td>Sistema</td></tr>
+                    <tr><td class="codigo">RF12</td><td><strong>Gestión de usuarios</strong></td><td>Permitir al administrador crear, editar y desactivar usuarios y asignarles un rol.</td><td>Administrador</td></tr>
+                    <tr><td class="codigo">RF13</td><td><strong>Campañas y gamificación</strong></td><td>Permitir al administrador crear campañas de referidos, retos, recompensas y las reglas de puntos.</td><td>Administrador</td></tr>
+                    <tr><td class="codigo">RF14</td><td><strong>Moderación</strong></td><td>Permitir al administrador revisar el contenido reportado y ocultarlo o eliminarlo.</td><td>Administrador</td></tr>
+                    <tr><td class="codigo">RF15</td><td><strong>Gestión de contenidos</strong></td><td>Permitir al gestor de contenidos crear y publicar capacitaciones, talleres, juegos y material educativo, financiero y de salud.</td><td>Gestor de contenidos</td></tr>
+                    <tr><td class="codigo">RF16</td><td><strong>Reportes</strong></td><td>Mostrar al administrador indicadores de referidos por estado, tasa de conversión y participación de los socios, filtrables por fecha.</td><td>Administrador</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Documento de Especificación de Requisitos · Ingeniería Web</p>
+        <p>Javier Viñán · Paulo Bustamante · 21 de octubre de 2026</p>
+    </footer>
+</body>
+</html>

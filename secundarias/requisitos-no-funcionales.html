@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requisitos no funcionales | Plataforma de Referidos y Fidelización</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header id="encabezado">
+        <div class="encabezado-contenido">
+            <img class="logo" src="../img/logo.png" alt="Logo de la Cooperativa de Ahorro y Crédito Padre Julián Lorente">
+            <div class="marca">
+                <h1>Plataforma de Referidos y Fidelización</h1>
+                <p>Cooperativa de Ahorro y Crédito Padre Julián Lorente</p>
+            </div>
+        </div>
+    </header>
+
+    <nav id="menu" aria-label="Menú principal">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="usuarios.html">Usuarios</a></li>
+            <li><a href="requisitos-funcionales.html">Requisitos funcionales</a></li>
+            <li><a href="requisitos-no-funcionales.html" class="activo" aria-current="page">Requisitos no funcionales</a></li>
+            <li><a href="alcance.html">Alcance</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="banner">
+            <span class="etiqueta-seccion">Sección 4</span>
+            <h2>Requisitos no funcionales</h2>
+            <p class="subtitulo">Condiciones de calidad que deberá cumplir la aplicación.</p>
+        </section>
+
+        <section class="tarjeta">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Categoría</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td class="codigo">RNF01</td><td><span class="categoria">Seguridad</span></td><td>Las contraseñas deben almacenarse cifradas y toda la comunicación debe realizarse mediante HTTPS.</td></tr>
+                    <tr><td class="codigo">RNF02</td><td><span class="categoria">Seguridad</span></td><td>Cada usuario solo debe acceder a las funciones de su rol (Socio, Administrador o Gestor de contenidos).</td></tr>
+                    <tr><td class="codigo">RNF03</td><td><span class="categoria">Seguridad</span></td><td>Los datos de socios y referidos deben tratarse conforme a la Ley Orgánica de Protección de Datos Personales del Ecuador.</td></tr>
+                    <tr><td class="codigo">RNF04</td><td><span class="categoria">Usabilidad</span></td><td>Las acciones principales (registrar un referido, inscribirse en una actividad, consultar puntos) deben realizarse en máximo 3 clics desde el inicio.</td></tr>
+                    <tr><td class="codigo">RNF05</td><td><span class="categoria">Accesibilidad</span></td><td>La aplicación debe cumplir las pautas WCAG 2.1 nivel AA (contraste suficiente, texto alternativo en imágenes y navegación por teclado).</td></tr>
+                    <tr><td class="codigo">RNF06</td><td><span class="categoria">Rendimiento</span></td><td>Las páginas principales deben cargar en menos de 3 segundos.</td></tr>
+                    <tr><td class="codigo">RNF07</td><td><span class="categoria">Compatibilidad</span></td><td>La aplicación debe funcionar en las versiones actuales de Chrome, Firefox, Edge y Safari, y adaptarse a teléfonos, tabletas y computadoras.</td></tr>
+                    <tr><td class="codigo">RNF08</td><td><span class="categoria">Disponibilidad</span></td><td>La aplicación debe estar disponible al menos el 99 % del tiempo, con copias de seguridad diarias de la base de datos.</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Documento de Especificación de Requisitos · Ingeniería Web</p>
+        <p>Javier Viñán · Paulo Bustamante · 21 de octubre de 2026</p>
+    </footer>
+</body>
+</html>
